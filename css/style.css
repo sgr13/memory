@@ -1,4 +1,45 @@
+.container {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: 100px;
+  perspective: 1000px;
+  position: relative; }
+
+.card {
+  transform-style: preserve-3d;
+  transition: 1s;
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.face {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 80px;
+  line-height: 400px;
+  text-align: center; }
+
+.front {
+  background-color: red;
+  transform: translateZ(40px); }
+
+.back {
+  background-color: yellow;
+  transform: rotateX(180deg) translateZ(40px); }
+
+.bottom {
+  background-color: black;
+  transform: rotateX(-90deg) translateZ(260px);
+  height: 80px; }
+
+.flipped {
+  transform: rotateX(180deg); }
+
 body {
-  background-color: burlywood; }
+  background-color: aquamarine; }
 
 /*# sourceMappingURL=style.css.map */
