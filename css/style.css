@@ -47,4 +47,33 @@ body {
   justify-content: center;
   flex-wrap: wrap; }
 
+.player {
+  border: 1px solid black;
+  width: 20%;
+  height: 200px;
+  position: relative;
+  margin: 10px 200px;
+  float: left; }
+
+.activePlayer {
+  border: solid 20px #56cd1a; }
+
+#scoreContainer {
+  display: flex;
+  justify-content: center; }
+
+.playerName {
+  text-align: center; }
+  .playerName span {
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 10px; }
+
+.score {
+  text-align: center; }
+  .score span {
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 30px; }
+
 /*# sourceMappingURL=style.css.map */
